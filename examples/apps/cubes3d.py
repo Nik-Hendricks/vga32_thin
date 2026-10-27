@@ -12,7 +12,6 @@ class Cubes3D(GameApp):
     width, height = 200, 125
     fps = 24
     mouse_look = True
-    adaptive_palette = True
 
     def start(self):
         s = Scene(sky=("navy", "#80b0ff"), fog=("#80b0ff", 10, 28))

@@ -25,7 +25,6 @@ class Maze3D(GameApp):
     width, height = 200, 125
     fps = 30
     mouse_look = True
-    adaptive_palette = True
 
     def start(self):
         self.world = Raycaster(MAP, colors={"#": "gray", "R": "red", "B": "blue", "G": "green"},
